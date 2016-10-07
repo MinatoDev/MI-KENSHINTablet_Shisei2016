@@ -1,0 +1,66 @@
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\診察.exe.config
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\診察.exe
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\診察.pdb
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\診察.xml
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet\診察\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet\診察\obj\Debug\診察.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet\診察\obj\Debug\診察.診察.resources
+D:\Documents\Projects\MI-KENSHINTablet\診察\obj\Debug\診察.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet\診察\obj\Debug\診察.exe
+D:\Documents\Projects\MI-KENSHINTablet\診察\obj\Debug\診察.xml
+D:\Documents\Projects\MI-KENSHINTablet\診察\obj\Debug\診察.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.exe.config
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.exe
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.vbprojResolveAssemblyReference.cache
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.Resources.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.診察.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.vbproj.GenerateResource.Cache
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.exe
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.exe.config
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.exe
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.診察.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.exe
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.exe.config
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.exe
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\診察.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Dac.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.Resources.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.診察.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.vbproj.GenerateResource.Cache
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.exe
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\診察\obj\Debug\診察.pdb

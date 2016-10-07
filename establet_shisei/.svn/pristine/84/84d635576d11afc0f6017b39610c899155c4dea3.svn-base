@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "計測", "ESTablet_Sisei\計測.vbproj", "{E548F921-E2F3-4FD7-AD01-30AC1BD5FD16}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "連携", "ESTabletServer\連携.vbproj", "{D072C6D8-EACF-44B6-8DD4-A58ED8C2A79F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "受付管理", "ESTabletPC\受付管理.vbproj", "{B8895733-4E69-46ED-87EF-9454AAD875FE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "マスタメンテ", "マスタメンテ\マスタメンテ.vbproj", "{ED540B6C-B617-453E-B375-FDB39BA493D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E548F921-E2F3-4FD7-AD01-30AC1BD5FD16}.Debug|x86.ActiveCfg = Debug|x86
+		{E548F921-E2F3-4FD7-AD01-30AC1BD5FD16}.Debug|x86.Build.0 = Debug|x86
+		{E548F921-E2F3-4FD7-AD01-30AC1BD5FD16}.Release|x86.ActiveCfg = Release|x86
+		{E548F921-E2F3-4FD7-AD01-30AC1BD5FD16}.Release|x86.Build.0 = Release|x86
+		{D072C6D8-EACF-44B6-8DD4-A58ED8C2A79F}.Debug|x86.ActiveCfg = Debug|x86
+		{D072C6D8-EACF-44B6-8DD4-A58ED8C2A79F}.Debug|x86.Build.0 = Debug|x86
+		{D072C6D8-EACF-44B6-8DD4-A58ED8C2A79F}.Release|x86.ActiveCfg = Release|x86
+		{D072C6D8-EACF-44B6-8DD4-A58ED8C2A79F}.Release|x86.Build.0 = Release|x86
+		{B8895733-4E69-46ED-87EF-9454AAD875FE}.Debug|x86.ActiveCfg = Debug|x86
+		{B8895733-4E69-46ED-87EF-9454AAD875FE}.Debug|x86.Build.0 = Debug|x86
+		{B8895733-4E69-46ED-87EF-9454AAD875FE}.Release|x86.ActiveCfg = Release|x86
+		{B8895733-4E69-46ED-87EF-9454AAD875FE}.Release|x86.Build.0 = Release|x86
+		{ED540B6C-B617-453E-B375-FDB39BA493D0}.Debug|x86.ActiveCfg = Debug|x86
+		{ED540B6C-B617-453E-B375-FDB39BA493D0}.Debug|x86.Build.0 = Debug|x86
+		{ED540B6C-B617-453E-B375-FDB39BA493D0}.Release|x86.ActiveCfg = Release|x86
+		{ED540B6C-B617-453E-B375-FDB39BA493D0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

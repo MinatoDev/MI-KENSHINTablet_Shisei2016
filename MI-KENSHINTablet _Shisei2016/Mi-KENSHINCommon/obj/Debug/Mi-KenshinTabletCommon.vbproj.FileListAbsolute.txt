@@ -1,0 +1,149 @@
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll.config
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.pdb
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.dll
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.pdb
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbprojResolveAssemblyReference.cache
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.MessageWindow.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tenkey.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbproj.GenerateResource.Cache
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.dll
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.MessageWindow.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tenkey.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb
+H:\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll.config
+H:\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll
+H:\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.pdb
+H:\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.xml
+H:\Dac\Mi-KENSHINCommon\bin\Debug\Dac.dll
+H:\Dac\Mi-KENSHINCommon\bin\Debug\Dac.pdb
+H:\Dac\Mi-KENSHINCommon\bin\Debug\Dac.xml
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbprojResolveAssemblyReference.cache
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.MessageWindow.resources
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tenkey.resources
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbproj.GenerateResource.Cache
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.dll
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+H:\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll.config
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.dll
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.pdb
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.xml
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.MessageWindow.resources
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tenkey.resources
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbproj.GenerateResource.Cache
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll.config
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.MessageWindow.resources
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.SyokenChoice.resources
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tenkey.resources
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll.config
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbprojResolveAssemblyReference.cache
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.MessageWindow.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.btnClear.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tenkey.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbproj.GenerateResource.Cache
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll.config
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.MessageWindow.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.btnClear.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tenkey.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll.config
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\bin\Debug\Dac.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbprojResolveAssemblyReference.cache
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.MessageWindow.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.btnClear.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tenkey.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KenshinTabletCommon.vbproj.GenerateResource.Cache
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb

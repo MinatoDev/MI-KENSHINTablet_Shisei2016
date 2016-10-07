@@ -1,0 +1,69 @@
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\検尿.exe.config
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\検尿.exe
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\検尿.pdb
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\検尿.xml
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet\検尿\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet\検尿\obj\Debug\検尿.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet\検尿\obj\Debug\検尿.ValueChoice.resources
+D:\Documents\Projects\MI-KENSHINTablet\検尿\obj\Debug\検尿.検尿.resources
+D:\Documents\Projects\MI-KENSHINTablet\検尿\obj\Debug\検尿.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet\検尿\obj\Debug\検尿.exe
+D:\Documents\Projects\MI-KENSHINTablet\検尿\obj\Debug\検尿.xml
+D:\Documents\Projects\MI-KENSHINTablet\検尿\obj\Debug\検尿.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.exe.config
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.exe
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.Resources.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.ValueChoice.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.検尿.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.vbproj.GenerateResource.Cache
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.exe
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.exe.config
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.exe
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.ValueChoice.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.検尿.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.exe
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.exe.config
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.exe
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\検尿.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Dac.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.Resources.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.ValueChoice.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.検尿.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.vbproj.GenerateResource.Cache
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.exe
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\検尿\obj\Debug\検尿.pdb

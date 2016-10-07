@@ -1,0 +1,90 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Tuban
+    Inherits System.Windows.Forms.UserControl
+
+    'UserControl はコンポーネント一覧をクリーンアップするために dispose をオーバーライドします。
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows フォーム デザイナーで必要です。
+    Private components As System.ComponentModel.IContainer
+
+    'メモ: 以下のプロシージャは Windows フォーム デザイナーで必要です。
+    'Windows フォーム デザイナーを使用して変更できます。  
+    'コード エディターを使って変更しないでください。
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.lblName = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.lblTuban = New System.Windows.Forms.Label()
+        Me.txtTuban = New Mi_KENSHINCommon.Mi_TextBox()
+        Me.SuspendLayout()
+        '
+        'lblName
+        '
+        Me.lblName.Font = New System.Drawing.Font("MS UI Gothic", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblName.Location = New System.Drawing.Point(324, 29)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(765, 67)
+        Me.lblName.TabIndex = 1055
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("メイリオ", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label6.Location = New System.Drawing.Point(5, 34)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(126, 72)
+        Me.Label6.TabIndex = 1051
+        Me.Label6.Text = "通番"
+        '
+        'lblTuban
+        '
+        Me.lblTuban.BackColor = System.Drawing.Color.White
+        Me.lblTuban.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblTuban.Font = New System.Drawing.Font("MS UI Gothic", 72.0!)
+        Me.lblTuban.Location = New System.Drawing.Point(127, 3)
+        Me.lblTuban.Name = "lblTuban"
+        Me.lblTuban.Size = New System.Drawing.Size(190, 103)
+        Me.lblTuban.TabIndex = 1056
+        Me.lblTuban.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'txtTuban
+        '
+        Me.txtTuban.Location = New System.Drawing.Point(249, 7)
+        Me.txtTuban.MaxLength = 4
+        Me.txtTuban.Name = "txtTuban"
+        Me.txtTuban.NextFocus = Nothing
+        Me.txtTuban.PrevFocus = Nothing
+        Me.txtTuban.Size = New System.Drawing.Size(100, 19)
+        Me.txtTuban.TabIndex = 1
+        '
+        'Tuban
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Controls.Add(Me.txtTuban)
+        Me.Controls.Add(Me.lblTuban)
+        Me.Controls.Add(Me.lblName)
+        Me.Controls.Add(Me.Label6)
+        Me.Name = "Tuban"
+        Me.Size = New System.Drawing.Size(1106, 137)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents lblName As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents lblTuban As System.Windows.Forms.Label
+    Friend WithEvents txtTuban As Mi_KENSHINCommon.Mi_TextBox
+
+End Class

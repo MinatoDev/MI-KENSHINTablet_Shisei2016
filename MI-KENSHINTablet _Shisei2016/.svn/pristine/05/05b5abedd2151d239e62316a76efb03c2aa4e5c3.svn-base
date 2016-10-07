@@ -1,0 +1,72 @@
+﻿Imports Dac
+Imports System.Configuration
+Imports Mi_KENSHINCommon
+
+''' <summary>
+''' 通番クラス
+''' </summary>
+''' <remarks></remarks>
+Public Class Tuban
+
+#Region "プロパティ"
+    ''' <summary>
+    ''' 個人ID
+    ''' </summary>
+    Public Property PersonID As String
+
+    ''' <summary>
+    ''' 対象検診名称
+    ''' </summary>
+    Public Property KenshinName As String
+
+    ''' <summary>
+    ''' 接続情報
+    ''' </summary>
+    Public Property ConnectionInfo As List(Of String) = New List(Of String)
+
+#End Region
+
+#Region "コンストラクタ"
+    ''' <summary>
+    ''' コンストラクタ
+    ''' </summary>
+    ''' <remarks></remarks>
+    Public Sub New()
+
+        ' この呼び出しはデザイナーで必要です。
+        InitializeComponent()
+
+        ' InitializeComponent() 呼び出しの後で初期化を追加します。
+
+    End Sub
+
+#End Region
+
+#Region "イベント"
+    ''' <summary>
+    ''' 通番選択イベント
+    ''' </summary>
+    ''' <param name="tuban"></param>
+    ''' <remarks></remarks>
+    Public Event TubanDecision(personID As String, tuban As String)
+
+    ''' <summary>
+    ''' 通番クリックイベント
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Private Sub lblTuban_Click(sender As Object, e As EventArgs) Handles lblTuban.Click
+
+        Using tlist As TubanList = New TubanList(Me)
+            tlist.ConnectionInfo = ConnectionInfo
+            tlist.ShowDialog()
+        End Using
+
+        RaiseEvent TubanDecision(PersonID, lblTuban.Text)
+
+    End Sub
+
+#End Region
+
+End Class

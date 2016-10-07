@@ -1,0 +1,7 @@
+﻿Public Class Mi_TextBox
+    Inherits TextBox
+
+    Public Property NextFocus As Mi_TextBox
+    Public Property PrevFocus As Mi_TextBox
+
+End Class

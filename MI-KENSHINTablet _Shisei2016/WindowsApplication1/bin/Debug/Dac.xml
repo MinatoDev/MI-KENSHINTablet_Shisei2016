@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Dac
+</name>
+</assembly>
+<members>
+<member name="P:Dac.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Dac.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Dac.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Dac.DBAccess.DataContainer.Key">
+	<summary>
+ 依頼元KEY
+ </summary>
+</member><member name="P:Dac.DBAccess.DataContainer.Code">
+	<summary>
+ 入力項目コード
+ </summary>
+</member><member name="P:Dac.DBAccess.DataContainer.value">
+	<summary>
+ 検査結果値
+ </summary>
+	<value></value>
+</member><member name="T:Dac.DBAccess.DataContainer">
+	<summary>
+ データ登録用コンテナクラス
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Dac.DBAccess.GetPersonByTuban(System.String)">
+	<summary>
+ 通番から検診者情報を取得する
+ </summary>
+	<param name="tuban"></param>
+	<returns>被験者Entity</returns>
+	<remarks></remarks>
+</member><member name="M:Dac.DBAccess.GetPersonList">
+	<summary>
+ 受付済みのすべての検診者情報を取得する
+ </summary>
+	<returns>被験者Entityリスト</returns>
+	<remarks></remarks>
+</member><member name="M:Dac.DBAccess.GetPersonListAll">
+	<summary>
+ すべての検診者情報を取得する
+ </summary>
+	<returns>被験者Entityリスト</returns>
+	<remarks></remarks>
+</member><member name="M:Dac.DBAccess.SetPersonItems(System.Data.DataTable,System.Collections.Generic.List{Dac.Tables.被験者}@)">
+	<summary>
+ 被験者テーブルのデータをリストに設定する
+ </summary>
+	<param name="dt">DataTable</param>
+	<param name="PersonEntity">被験者Entityリスト</param>
+	<remarks></remarks>
+</member><member name="M:Dac.DBAccess.GetKensindataByPersonalID(System.String)">
+	<summary>
+ 依頼元KEYから結果取込を検索する
+ </summary>
+	<param name="personalID">依頼元KEY</param>
+	<returns>結果取込リスト</returns>
+	<remarks></remarks>
+</member><member name="M:Dac.DBAccess.SetResultItems(System.Data.DataTable,System.Collections.Generic.List{Dac.Tables.結果取込}@)">
+	<summary>
+ 結果取込テーブルのデータをリストに設定する
+ </summary>
+	<param name="dt">DataTAble</param>
+	<param name="ResultEntity">結果取込リスト</param>
+	<remarks></remarks>
+</member><member name="M:Dac.DBAccess.GetInspectionItemMasterByPK(System.String)">
+	<summary>
+ 検査項目マスタをPKで検索する
+ </summary>
+	<param name="code">入力項目コード</param>
+	<returns>検査項目マスタエンティティ</returns>
+	<remarks></remarks>
+</member><member name="M:Dac.DBAccess.SetInspectionItemMasterItems(System.Data.DataTable,System.Collections.Generic.List{Dac.Tables.検査項目マスタ}@)">
+	<summary>
+ 検査項目マスタのデータをリストに設定する
+ </summary>
+	<param name="dt">DataTable</param>
+	<param name="InspectionItemMasterEntity">検査項目マスタエンティティ</param>
+	<remarks></remarks>
+</member><member name="T:Dac.DBAccess">
+	<summary>
+ データ・アクセスクラス
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

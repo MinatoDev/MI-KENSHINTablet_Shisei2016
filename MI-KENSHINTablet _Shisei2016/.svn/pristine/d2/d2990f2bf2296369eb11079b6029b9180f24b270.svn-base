@@ -1,0 +1,98 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class 腹囲
+    Inherits Mi_KENSHINCommon.KenshinTabletBase
+
+    'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows フォーム デザイナーで必要です。
+    Private components As System.ComponentModel.IContainer
+
+    'メモ: 以下のプロシージャは Windows フォーム デザイナーで必要です。
+    'Windows フォーム デザイナーを使用して変更できます。  
+    'コード エディターを使って変更しないでください。
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.lbl腹囲値 = New System.Windows.Forms.Label()
+        Me.lbl腹囲 = New System.Windows.Forms.Label()
+        Me.lbl腹囲単位 = New System.Windows.Forms.Label()
+        Me.btnRegist = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'lbl腹囲値
+        '
+        Me.lbl腹囲値.BackColor = System.Drawing.Color.White
+        Me.lbl腹囲値.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl腹囲値.Font = New System.Drawing.Font("MS UI Gothic", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl腹囲値.Location = New System.Drawing.Point(568, 301)
+        Me.lbl腹囲値.Name = "lbl腹囲値"
+        Me.lbl腹囲値.Size = New System.Drawing.Size(228, 81)
+        Me.lbl腹囲値.TabIndex = 126
+        Me.lbl腹囲値.Text = "000.0"
+        Me.lbl腹囲値.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbl腹囲
+        '
+        Me.lbl腹囲.AutoSize = True
+        Me.lbl腹囲.Font = New System.Drawing.Font("MS UI Gothic", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl腹囲.Location = New System.Drawing.Point(428, 313)
+        Me.lbl腹囲.Name = "lbl腹囲"
+        Me.lbl腹囲.Size = New System.Drawing.Size(92, 64)
+        Me.lbl腹囲.TabIndex = 124
+        Me.lbl腹囲.Text = "--"
+        Me.lbl腹囲.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbl腹囲単位
+        '
+        Me.lbl腹囲単位.AutoSize = True
+        Me.lbl腹囲単位.Font = New System.Drawing.Font("メイリオ", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl腹囲単位.Location = New System.Drawing.Point(802, 347)
+        Me.lbl腹囲単位.Name = "lbl腹囲単位"
+        Me.lbl腹囲単位.Size = New System.Drawing.Size(46, 44)
+        Me.lbl腹囲単位.TabIndex = 125
+        Me.lbl腹囲単位.Text = "--"
+        '
+        'btnRegist
+        '
+        Me.btnRegist.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnRegist.Font = New System.Drawing.Font("メイリオ", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnRegist.Location = New System.Drawing.Point(969, 612)
+        Me.btnRegist.Name = "btnRegist"
+        Me.btnRegist.Size = New System.Drawing.Size(288, 75)
+        Me.btnRegist.TabIndex = 1043
+        Me.btnRegist.Text = "登  録"
+        Me.btnRegist.UseVisualStyleBackColor = True
+        '
+        '腹囲
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1280, 800)
+        Me.Controls.Add(Me.btnRegist)
+        Me.Controls.Add(Me.lbl腹囲値)
+        Me.Controls.Add(Me.lbl腹囲)
+        Me.Controls.Add(Me.lbl腹囲単位)
+        Me.Name = "腹囲"
+        Me.Controls.SetChildIndex(Me.lbl腹囲単位, 0)
+        Me.Controls.SetChildIndex(Me.lbl腹囲, 0)
+        Me.Controls.SetChildIndex(Me.lbl腹囲値, 0)
+        Me.Controls.SetChildIndex(Me.btnRegist, 0)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents lbl腹囲値 As System.Windows.Forms.Label
+    Friend WithEvents lbl腹囲 As System.Windows.Forms.Label
+    Friend WithEvents lbl腹囲単位 As System.Windows.Forms.Label
+    Friend WithEvents btnRegist As System.Windows.Forms.Button
+
+End Class

@@ -1,0 +1,69 @@
+﻿Imports IWshRuntimeLibrary
+
+Public Class Installer
+    ''' <summary>
+    ''' 開始クリックイベント
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+        'マイドキュメントにコピー
+        Dim InstallDir As String = System.Environment.GetFolderPath(Environment.SpecialFolder.Personal) & "\Mi-KenshinTablet"
+        If Not System.IO.Directory.Exists(InstallDir) Then
+            System.IO.Directory.CreateDirectory(InstallDir)
+        End If
+        My.Computer.FileSystem.CopyDirectory(".\Mi-Kenshin", InstallDir, FileIO.UIOption.AllDialogs, FileIO.UICancelOption.DoNothing)
+
+        'ショートカットをデスクトップに作成
+        Dim linkName As String = "検診.lnk"
+        MakeShortCut(InstallDir & "\login\bin\debug\", linkName)
+
+        'スタートアップに登録
+        Dim deskTop As String = System.Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) & "\"
+        Dim startUp As String = System.Environment.GetFolderPath(Environment.SpecialFolder.Startup) & "\"
+        System.IO.File.Copy(deskTop & linkName, startUp & linkName)
+
+    End Sub
+
+#Region "ショートカット作成"
+    ''' <summary>
+    ''' ショートカット作成
+    ''' </summary>
+    ''' <param name="path"></param>
+    ''' <remarks></remarks>
+    Private Sub MakeShortCut(path As String, linkName As String)
+        '作成するショートカットのパス 
+        Dim shortcutPath As String = System.IO.Path.Combine(Environment.GetFolderPath(System.Environment.SpecialFolder.DesktopDirectory), linkName)
+        'ショートカットのリンク先 
+        Dim targetPath As String = path & "login.exe"
+
+        'WshShellを作成 
+        Dim shell As New IWshRuntimeLibrary.WshShell()
+        'ショートカットのパスを指定して、WshShortcutを作成 
+        Dim shortcut As IWshRuntimeLibrary.IWshShortcut = DirectCast(shell.CreateShortcut(shortcutPath), IWshRuntimeLibrary.IWshShortcut)
+        'リンク先 
+        shortcut.TargetPath = targetPath
+        'コマンドパラメータ 「リンク先」の後ろに付く 
+        shortcut.Arguments = String.Empty
+        '作業フォルダ 
+        shortcut.WorkingDirectory = path
+        'ショートカットキー（ホットキー） 
+        shortcut.Hotkey = String.Empty
+        '実行時の大きさ 1が通常、3が最大化、7が最小化 
+        shortcut.WindowStyle = 1
+        'コメント 
+        shortcut.Description = "Mi-Kenshin Tablet"
+        'アイコンのパス 自分のEXEファイルのインデックス0のアイコン 
+        shortcut.IconLocation = Application.ExecutablePath + ",0"
+
+        'ショートカットを作成 
+        shortcut.Save()
+
+        '後始末
+        System.Runtime.InteropServices.Marshal.FinalReleaseComObject(shortcut)
+        System.Runtime.InteropServices.Marshal.FinalReleaseComObject(shell)
+    End Sub
+#End Region
+
+End Class

@@ -1,0 +1,138 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class btnClear
+    Inherits System.Windows.Forms.Form
+
+    'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows フォーム デザイナーで必要です。
+    Private components As System.ComponentModel.IContainer
+
+    'メモ: 以下のプロシージャは Windows フォーム デザイナーで必要です。
+    'Windows フォーム デザイナーを使用して変更できます。  
+    'コード エディターを使って変更しないでください。
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btn所見なし = New System.Windows.Forms.Button()
+        Me.btn所見あり = New System.Windows.Forms.Button()
+        Me.btnクリア = New System.Windows.Forms.Button()
+        Me.lbl検診名 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'btnCancel
+        '
+        Me.btnCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnCancel.BackColor = System.Drawing.SystemColors.Control
+        Me.btnCancel.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnCancel.Location = New System.Drawing.Point(1045, 666)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(181, 59)
+        Me.btnCancel.TabIndex = 14
+        Me.btnCancel.TabStop = False
+        Me.btnCancel.Text = "キャンセル"
+        Me.btnCancel.UseVisualStyleBackColor = False
+        '
+        'btn所見なし
+        '
+        Me.btn所見なし.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btn所見なし.BackColor = System.Drawing.SystemColors.Control
+        Me.btn所見なし.Font = New System.Drawing.Font("MS UI Gothic", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn所見なし.Location = New System.Drawing.Point(528, 79)
+        Me.btn所見なし.Name = "btn所見なし"
+        Me.btn所見なし.Size = New System.Drawing.Size(395, 163)
+        Me.btn所見なし.TabIndex = 16
+        Me.btn所見なし.TabStop = False
+        Me.btn所見なし.Text = "所見なし"
+        Me.btn所見なし.UseVisualStyleBackColor = False
+        '
+        'btn所見あり
+        '
+        Me.btn所見あり.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btn所見あり.BackColor = System.Drawing.SystemColors.Control
+        Me.btn所見あり.Font = New System.Drawing.Font("MS UI Gothic", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn所見あり.Location = New System.Drawing.Point(104, 79)
+        Me.btn所見あり.Name = "btn所見あり"
+        Me.btn所見あり.Size = New System.Drawing.Size(393, 163)
+        Me.btn所見あり.TabIndex = 15
+        Me.btn所見あり.TabStop = False
+        Me.btn所見あり.Text = "所見あり"
+        Me.btn所見あり.UseVisualStyleBackColor = False
+        '
+        'btnクリア
+        '
+        Me.btnクリア.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnクリア.BackColor = System.Drawing.SystemColors.Control
+        Me.btnクリア.Font = New System.Drawing.Font("MS UI Gothic", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnクリア.Location = New System.Drawing.Point(672, 267)
+        Me.btnクリア.Name = "btnクリア"
+        Me.btnクリア.Size = New System.Drawing.Size(251, 76)
+        Me.btnクリア.TabIndex = 17
+        Me.btnクリア.TabStop = False
+        Me.btnクリア.Text = "クリア"
+        Me.btnクリア.UseVisualStyleBackColor = False
+        '
+        'lbl検診名
+        '
+        Me.lbl検診名.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.lbl検診名.AutoSize = True
+        Me.lbl検診名.Font = New System.Drawing.Font("MS UI Gothic", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl検診名.Location = New System.Drawing.Point(29, 696)
+        Me.lbl検診名.Name = "lbl検診名"
+        Me.lbl検診名.Size = New System.Drawing.Size(90, 29)
+        Me.lbl検診名.TabIndex = 37
+        Me.lbl検診名.Text = "【 {0} 】"
+        '
+        'Panel1
+        '
+        Me.Panel1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel1.Controls.Add(Me.btn所見あり)
+        Me.Panel1.Controls.Add(Me.btn所見なし)
+        Me.Panel1.Controls.Add(Me.btnクリア)
+        Me.Panel1.Location = New System.Drawing.Point(76, 145)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1062, 414)
+        Me.Panel1.TabIndex = 38
+        '
+        'btnClear
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(1264, 761)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.lbl検診名)
+        Me.Controls.Add(Me.btnCancel)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "btnClear"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "ValueChoice"
+        Me.Panel1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents btnCancel As System.Windows.Forms.Button
+    Friend WithEvents btn所見なし As System.Windows.Forms.Button
+    Friend WithEvents btn所見あり As System.Windows.Forms.Button
+    Friend WithEvents btnクリア As System.Windows.Forms.Button
+    Friend WithEvents lbl検診名 As System.Windows.Forms.Label
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+End Class

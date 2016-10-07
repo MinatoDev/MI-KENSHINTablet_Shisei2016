@@ -1,0 +1,145 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KenshinTabletCommon
+</name>
+</assembly>
+<members>
+<member name="P:KenshinTabletCommon.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:KenshinTabletCommon.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="P:KenshinTabletCommon.My.Resources.Resources.exclamation">
+	<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member><member name="P:KenshinTabletCommon.My.Resources.Resources.information">
+	<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member><member name="P:KenshinTabletCommon.My.Resources.Resources.question">
+	<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member><member name="P:KenshinTabletCommon.My.Resources.Resources.String1">
+	<summary>
+   に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="T:KenshinTabletCommon.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member><member name="P:KenshinTabletCommon.TubanLogic.Persons">
+	<summary>
+ 個人リスト
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletCommon.TubanLogic.ClearList">
+	<summary>
+ リストを破棄する。
+ </summary>
+	<remarks></remarks>
+</member><member name="P:KenshinTabletCommon.Tuban.PersonID">
+	<summary>
+ 個人ID
+ </summary>
+</member><member name="P:KenshinTabletCommon.Tuban.KenshinName">
+	<summary>
+ 対象検診名称
+ </summary>
+</member><member name="E:KenshinTabletCommon.Tuban.TubanDecision">
+	<summary>
+ 通番選択イベント
+ </summary>
+	<param name="tuban"></param>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletCommon.Tuban.lblTuban_Click(System.Object,System.EventArgs)">
+	<summary>
+ 通番クリックイベント
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:KenshinTabletCommon.TubanList.logic">
+	<summary>
+ ロジッククラスのインスタンス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:KenshinTabletCommon.TubanList.Caller">
+	<summary>
+ 呼び出し元
+ </summary>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletCommon.TubanList.TubanList_Load(System.Object,System.EventArgs)">
+	<summary>
+ ロードイベント
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletCommon.TubanList.btnClose_Click(System.Object,System.EventArgs)">
+	<summary>
+ キャンセルボタンクリックイベント
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletCommon.TubanList.OnPersonSelected(System.String,System.String,System.String)">
+	<summary>
+ 個人が選択されたイベント
+ </summary>
+	<param name="number"></param>
+	<param name="name"></param>
+	<remarks></remarks>
+</member><member name="T:KenshinTabletCommon.TubanList">
+	<summary>
+ 通番リスト表示選択クラス
+ </summary>
+	<remarks></remarks>
+</member><member name="E:KenshinTabletCommon.Person.PersonSelected">
+	<summary>
+ 個人が選択されたイベント定義
+ </summary>
+	<param name="tuban">通番</param>
+	<param name="name">氏名</param>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletCommon.Person.Clicked(System.Object,System.EventArgs)">
+	<summary>
+ イベントを発生させる
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:KenshinTabletCommon.Person">
+	<summary>
+ 個人表示用コントロール
+ </summary>
+	<remarks></remarks>
+</member><member name="P:KenshinTabletCommon.Tenkey.Cntl">
+	<summary>
+ 呼び出し元
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:KenshinTabletCommon.KenshinTabletBase.KenshinName">
+	<summary>
+ 検診名
+ </summary>
+</member><member name="M:KenshinTabletCommon.KenshinTabletBase.Tuuban_TubanDecision(System.String,System.String)">
+	<summary>
+ 通番が確定されたイベント
+ </summary>
+	<param name="tuban"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,69 @@
+D:\Documents\Projects\MI-KENSHINTablet\Login\bin\Debug\Login.exe.config
+D:\Documents\Projects\MI-KENSHINTablet\Login\bin\Debug\Login.exe
+D:\Documents\Projects\MI-KENSHINTablet\Login\bin\Debug\Login.pdb
+D:\Documents\Projects\MI-KENSHINTablet\Login\bin\Debug\Login.xml
+D:\Documents\Projects\MI-KENSHINTablet\Login\obj\Debug\Login.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\MI-KENSHINTablet\Login\obj\Debug\Login.Launcher.resources
+D:\Documents\Projects\MI-KENSHINTablet\Login\obj\Debug\Login.Login.resources
+D:\Documents\Projects\MI-KENSHINTablet\Login\obj\Debug\Login.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet\Login\obj\Debug\Login.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet\Login\obj\Debug\Login.exe
+D:\Documents\Projects\MI-KENSHINTablet\Login\obj\Debug\Login.xml
+D:\Documents\Projects\MI-KENSHINTablet\Login\obj\Debug\Login.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.exe.config
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.exe
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.vbprojResolveAssemblyReference.cache
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Launcher.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Login.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Resources.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Setting.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.vbproj.GenerateResource.Cache
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.exe
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.exe.config
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.exe
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Launcher.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Login.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Setting.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.exe
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.exe.config
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.exe
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Login.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\bin\Debug\Dac.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.vbprojResolveAssemblyReference.cache
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Launcher.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Login.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Resources.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.Setting.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.vbproj.GenerateResource.Cache
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.exe
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\Login\obj\Debug\Login.pdb

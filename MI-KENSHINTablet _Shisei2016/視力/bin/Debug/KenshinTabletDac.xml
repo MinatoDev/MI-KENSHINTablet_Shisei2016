@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KenshinTabletDac
+</name>
+</assembly>
+<members>
+<member name="P:KenshinTabletDac.DBAccess.DataContainer.Key">
+	<summary>
+ 依頼元KEY
+ </summary>
+</member><member name="P:KenshinTabletDac.DBAccess.DataContainer.Code">
+	<summary>
+ 入力項目コード
+ </summary>
+</member><member name="P:KenshinTabletDac.DBAccess.DataContainer.value">
+	<summary>
+ 検査結果値
+ </summary>
+	<value></value>
+</member><member name="T:KenshinTabletDac.DBAccess.DataContainer">
+	<summary>
+ データ登録用コンテナクラス
+ </summary>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletDac.DBAccess.GetPersonByTuban(System.String)">
+	<summary>
+ 通番から検診者情報を取得する
+ </summary>
+	<param name="tuban"></param>
+	<returns>被験者Entity</returns>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletDac.DBAccess.GetPersonList">
+	<summary>
+ 受付済みのすべての検診者情報を取得する
+ </summary>
+	<returns>被験者Entityリスト</returns>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletDac.DBAccess.GetPersonListAll">
+	<summary>
+ すべての検診者情報を取得する
+ </summary>
+	<returns>被験者Entityリスト</returns>
+	<remarks></remarks>
+</member><member name="M:KenshinTabletDac.DBAccess.GetInspectionItemMasterByPK(System.String)">
+	<summary>
+ 検査項目マスタをPKで検索する
+ </summary>
+	<param name="code">入力項目コード</param>
+	<returns>検査項目マスタエンティティ</returns>
+	<remarks></remarks>
+</member><member name="P:KenshinTabletDac.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:KenshinTabletDac.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:KenshinTabletDac.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+受付管理
+</name>
+</assembly>
+<members>
+<member name="M:受付管理.MainForm.WndProc(System.Windows.Forms.Message@)">
+	<summary>
+ WndProc WM_USER + 1をカスタムコントロールから受けるため
+ </summary>
+	<param name="m"></param>
+	<remarks></remarks>
+</member><member name="P:受付管理.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:受付管理.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="P:受付管理.My.Resources.Resources.estSVlogo">
+	<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member><member name="P:受付管理.My.Resources.Resources.受付管理">
+	<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member><member name="T:受付管理.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,210 @@
+﻿Option Explicit On
+
+Imports System.Data.Odbc
+
+Public Class DacFunc
+    Public con As OdbcConnection
+    Public tran As OdbcTransaction
+    Public DSN As String
+    Public Database As String
+    Public UID As String
+    Public PWD As String
+
+
+    ''' <summary>
+    ''' コンストラクタ
+    ''' </summary>+++++++++++++++
+    ''' <param name="ConnectInfo">接続情報</param>
+    ''' <remarks></remarks>
+    Public Sub New(ConnectInfo As List(Of String))
+        DSN = ConnectInfo(0)
+        Database = ConnectInfo(1)
+        UID = ConnectInfo(2)
+        PWD = ConnectInfo(3)
+    End Sub
+
+    Public Function connect(ByRef errmsg As String) As Boolean
+        Dim constr As String = String.Empty
+
+        connect = True
+        constr = ""
+        constr += ";DSN=" + DSN
+        constr += ";Database=" + Database
+        constr += ";UID=" + UID
+        constr += ";PWD=" + PWD
+
+        If con Is Nothing Then
+            con = New OdbcConnection
+        End If
+        con.ConnectionString = constr
+
+        Try
+            ' データベース接続を開く
+            con.Open()
+            If Not con.State = ConnectionState.Open Then
+                Throw New DBErrorException("データベースに接続できません。")
+            End If
+
+        Catch ex As Exception
+            Throw
+        End Try
+        Return True
+    End Function
+
+
+    Public Function close() As Boolean
+        Try
+            If Not IsNothing(con) Then
+                con.Close()
+                con.Dispose()
+                con = Nothing
+            End If
+        Catch ex As ApplicationException
+            Throw New ApplicationException(ex.Message)
+        End Try
+        Return True
+    End Function
+
+    Public Function starttrn(ByRef errmsg As String) As Boolean
+        tran = Nothing
+        Try
+            tran = con.BeginTransaction(IsolationLevel.ReadCommitted)
+            If IsNothing(tran) Then
+                Throw New DBErrorException("トランザクションが開始できません。")
+            End If
+        Catch ex As Exception
+            Throw
+        End Try
+        Return True
+    End Function
+
+    Public Function committrn() As Boolean
+        Try
+            tran.Commit()
+            tran.Dispose()
+        Catch ex As EvaluateException
+            Return False
+        End Try
+        Return True
+    End Function
+
+    Public Function rollbacktran() As Boolean
+        Try
+            tran.Rollback()
+            tran.Dispose()
+        Catch ex As Exception
+            Throw
+        End Try
+        Return True
+    End Function
+
+    Public Function execNonQ(ByVal comstr As String, ByRef errmsg As String) As Boolean
+        Try
+            Dim sqlcmd As New OdbcCommand(comstr, con)
+            Dim adapter As New OdbcDataAdapter(sqlcmd)
+
+            sqlcmd = con.CreateCommand
+            sqlcmd.CommandTimeout = 300
+            sqlcmd.CommandText = comstr
+            sqlcmd.ExecuteNonQuery()
+        Catch ex As Exception
+            Throw
+            Return False
+        End Try
+        Return True
+    End Function
+
+    Public Function execNonQTran(ByVal comstr As String, ByRef errmsg As String) As Boolean
+        Try
+            Dim sqlcmd As New OdbcCommand(comstr, con)
+
+            sqlcmd = con.CreateCommand
+            sqlcmd.CommandTimeout = 300
+            sqlcmd.CommandText = comstr
+
+            sqlcmd.Transaction = tran
+            sqlcmd.ExecuteNonQuery()
+        Catch ex As Exception
+            errmsg = ex.Message + vbCrLf + comstr
+            Throw
+        End Try
+        Return True
+    End Function
+
+
+    Public Function ExecuteSql(ByVal sql As String, Optional ByVal tot As Integer = -1) As DataTable
+        Dim dt As New DataTable
+
+        Try
+            Dim sqlCommand As New OdbcCommand(sql, con, tran)
+            Dim adapter As New OdbcDataAdapter(sqlCommand)
+
+            adapter.Fill(dt)
+            adapter.Dispose()
+            sqlCommand.Dispose()
+        Catch ex As Exception
+            Return Nothing
+        End Try
+
+        Return dt
+    End Function
+
+
+    Public Function execNonQ(comstr As String, ByRef errmsg As String, con As OdbcConnection) As Boolean
+        Try
+            Dim sqlcmd As New OdbcCommand(comstr, con)
+            Dim adapter As New OdbcDataAdapter(sqlcmd)
+
+            sqlcmd = con.CreateCommand
+            sqlcmd.CommandTimeout = 300
+            sqlcmd.CommandText = comstr
+            sqlcmd.ExecuteNonQuery()
+        Catch ex As Exception
+            errmsg = ex.Message + vbCrLf + comstr
+            Return False
+        End Try
+        Return True
+    End Function
+
+    Public Function execNonQTran(comstr As String, ByRef errmsg As String, con As OdbcConnection, tran As System.Data.Odbc.OdbcTransaction) As Boolean
+        Try
+            Dim sqlcmd As New OdbcCommand(comstr, con)
+
+            sqlcmd = con.CreateCommand
+            sqlcmd.CommandTimeout = 300
+            sqlcmd.CommandText = comstr
+
+            sqlcmd.Transaction = tran
+            sqlcmd.ExecuteNonQuery()
+        Catch ex As Exception
+            errmsg = ex.Message + vbCrLf + comstr
+            Return False
+        End Try
+        Return True
+    End Function
+End Class
+
+
+'ファイルエラーのクラス
+Class FileException
+    Inherits Exception
+    Public Sub New(ByVal msg As String)
+        MyBase.New(msg)
+    End Sub
+End Class
+
+'DBエラーのクラス
+Class DBErrorException
+    Inherits Exception
+    Public Sub New(ByVal msg As String)
+        MyBase.New(msg)
+    End Sub
+End Class
+
+'データなしエラーのクラス
+Class NoDataException
+    Inherits Exception
+    Public Sub New(ByVal msg As String)
+        MyBase.New(msg)
+    End Sub
+End Class

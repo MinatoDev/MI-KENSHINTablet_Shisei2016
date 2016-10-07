@@ -1,0 +1,17 @@
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.KenshinTabletBase.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Resources.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Person.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.Tuban.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi_KENSHINCommon.TubanList.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\KenshinTabletCommon.vbproj.GenerateResource.Cache
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.exe.config
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.exe
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.pdb
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Mi-KENSHINCommon.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.dll
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.pdb
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\bin\Debug\Dac.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.exe
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\Mi-KENSHINCommon.pdb
+e:\Documents\Visual Studio 2013\Projects\Dac\Mi-KENSHINCommon\obj\Debug\KenshinTabletCommon.vbprojResolveAssemblyReference.cache

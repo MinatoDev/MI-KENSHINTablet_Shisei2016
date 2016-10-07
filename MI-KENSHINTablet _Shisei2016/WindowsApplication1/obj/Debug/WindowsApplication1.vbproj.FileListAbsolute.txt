@@ -1,0 +1,13 @@
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\bin\Debug\Dac.dll
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\bin\Debug\Dac.pdb
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\bin\Debug\Dac.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+e:\Documents\Visual Studio 2013\Projects\Dac\WindowsApplication1\obj\Debug\WindowsApplication1.pdb

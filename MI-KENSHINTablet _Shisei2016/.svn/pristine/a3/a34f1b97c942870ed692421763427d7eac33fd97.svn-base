@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+  <appSettings>
+    <add key="NakedEyeR_School" value = "0030104" />
+    <add key="NakedEyeL_School" value = "0030103" />
+    <add key="CorrectedEyeR_School" value = "0030105" />
+    <add key="CorrectedEyeL_School" value = "0030106" />
+  </appSettings>
+</configuration>

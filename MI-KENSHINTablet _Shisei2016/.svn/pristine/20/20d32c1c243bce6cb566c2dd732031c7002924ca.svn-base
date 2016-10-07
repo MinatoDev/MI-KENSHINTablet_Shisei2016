@@ -1,0 +1,57 @@
+﻿Imports Mi_KENSHINCommon
+Imports Dac
+Imports System.Configuration.ConfigurationManager
+
+Public Class KenshinTabletBase
+
+    ''' <summary>
+    ''' 検診名
+    ''' </summary>
+    Public Property KenshinName As String
+
+    Public ConnectInfo As List(Of String) = New List(Of String)
+
+    Public Sub New()
+
+        ' この呼び出しはデザイナーで必要です。
+        InitializeComponent()
+
+        ' InitializeComponent() 呼び出しの後で初期化を追加します。
+        Me.ControlBox = False
+        Me.Text = String.Empty
+
+        ConnectInfo.Add(AppSettings("DSN"))
+        ConnectInfo.Add(AppSettings("Database"))
+        ConnectInfo.Add(AppSettings("UID"))
+        ConnectInfo.Add(AppSettings("PWD"))
+
+        Tuuban.ConnectionInfo = ConnectInfo
+
+  
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
+        Me.Dispose()
+    End Sub
+
+
+    ''' <summary>
+    ''' 通番が確定されたイベント
+    ''' </summary>
+    ''' <param name="tuban"></param>
+    ''' <remarks></remarks>
+    Public Overridable Sub Tuuban_TubanDecision(personID As String, tuban As String) Handles Tuuban.TubanDecision
+
+    End Sub
+
+    Public Sub ClearTuban()
+        Tuuban.lblTuban.Text = String.Empty
+        Tuuban.lblName.Text = String.Empty
+    End Sub
+
+
+    Public Overridable Sub KenshinTabletBase_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Me.Tuuban.KenshinName = Me.KenshinName
+    End Sub
+End Class

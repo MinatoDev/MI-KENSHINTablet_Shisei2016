@@ -1,0 +1,389 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class 身長体重
+    Inherits Mi_KENSHINCommon.KenshinTabletBase
+
+    'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows フォーム デザイナーで必要です。
+    Private components As System.ComponentModel.IContainer
+
+    'メモ: 以下のプロシージャは Windows フォーム デザイナーで必要です。
+    'Windows フォーム デザイナーを使用して変更できます。  
+    'コード エディターを使って変更しないでください。
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btn腹囲 = New System.Windows.Forms.Button()
+        Me.txt腹囲少数 = New Mi_KENSHINCommon.Mi_TextBox()
+        Me.txt腹囲 = New Mi_KENSHINCommon.Mi_TextBox()
+        Me.txt体重少数 = New Mi_KENSHINCommon.Mi_TextBox()
+        Me.txt体重 = New Mi_KENSHINCommon.Mi_TextBox()
+        Me.txt身長少数 = New Mi_KENSHINCommon.Mi_TextBox()
+        Me.txt身長 = New Mi_KENSHINCommon.Mi_TextBox()
+        Me.lbl腹囲値 = New System.Windows.Forms.Label()
+        Me.lbl体重値 = New System.Windows.Forms.Label()
+        Me.lbl身長値 = New System.Windows.Forms.Label()
+        Me.lbl腹囲単位 = New System.Windows.Forms.Label()
+        Me.lbl体重単位 = New System.Windows.Forms.Label()
+        Me.lbl身長単位 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lbl腹囲 = New System.Windows.Forms.Label()
+        Me.lbl体重 = New System.Windows.Forms.Label()
+        Me.lbl身長 = New System.Windows.Forms.Label()
+        Me.btnRegist = New System.Windows.Forms.Button()
+        Me.Panel1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Panel1
+        '
+        Me.Panel1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel1.Controls.Add(Me.btn腹囲)
+        Me.Panel1.Controls.Add(Me.txt腹囲少数)
+        Me.Panel1.Controls.Add(Me.txt腹囲)
+        Me.Panel1.Controls.Add(Me.txt体重少数)
+        Me.Panel1.Controls.Add(Me.txt体重)
+        Me.Panel1.Controls.Add(Me.txt身長少数)
+        Me.Panel1.Controls.Add(Me.txt身長)
+        Me.Panel1.Controls.Add(Me.lbl腹囲値)
+        Me.Panel1.Controls.Add(Me.lbl体重値)
+        Me.Panel1.Controls.Add(Me.lbl身長値)
+        Me.Panel1.Controls.Add(Me.lbl腹囲単位)
+        Me.Panel1.Controls.Add(Me.lbl体重単位)
+        Me.Panel1.Controls.Add(Me.lbl身長単位)
+        Me.Panel1.Controls.Add(Me.Label5)
+        Me.Panel1.Controls.Add(Me.Label4)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.lbl腹囲)
+        Me.Panel1.Controls.Add(Me.lbl体重)
+        Me.Panel1.Controls.Add(Me.lbl身長)
+        Me.Panel1.Location = New System.Drawing.Point(64, 145)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1138, 526)
+        Me.Panel1.TabIndex = 4
+        '
+        'btn腹囲
+        '
+        Me.btn腹囲.Enabled = False
+        Me.btn腹囲.Font = New System.Drawing.Font("MS UI Gothic", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn腹囲.Location = New System.Drawing.Point(93, 343)
+        Me.btn腹囲.Name = "btn腹囲"
+        Me.btn腹囲.Size = New System.Drawing.Size(175, 45)
+        Me.btn腹囲.TabIndex = 136
+        Me.btn腹囲.Text = "腹囲実施しない"
+        Me.btn腹囲.UseVisualStyleBackColor = True
+        '
+        'txt腹囲少数
+        '
+        Me.txt腹囲少数.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txt腹囲少数.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!)
+        Me.txt腹囲少数.Location = New System.Drawing.Point(629, 384)
+        Me.txt腹囲少数.MaxLength = 1
+        Me.txt腹囲少数.Name = "txt腹囲少数"
+        Me.txt腹囲少数.NextFocus = Nothing
+        Me.txt腹囲少数.PrevFocus = Nothing
+        Me.txt腹囲少数.Size = New System.Drawing.Size(48, 80)
+        Me.txt腹囲少数.TabIndex = 135
+        Me.txt腹囲少数.Text = "9"
+        '
+        'txt腹囲
+        '
+        Me.txt腹囲.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txt腹囲.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!)
+        Me.txt腹囲.Location = New System.Drawing.Point(445, 385)
+        Me.txt腹囲.MaxLength = 3
+        Me.txt腹囲.Name = "txt腹囲"
+        Me.txt腹囲.NextFocus = Nothing
+        Me.txt腹囲.PrevFocus = Nothing
+        Me.txt腹囲.Size = New System.Drawing.Size(131, 80)
+        Me.txt腹囲.TabIndex = 134
+        Me.txt腹囲.Text = "999"
+        '
+        'txt体重少数
+        '
+        Me.txt体重少数.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txt体重少数.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!)
+        Me.txt体重少数.Location = New System.Drawing.Point(629, 252)
+        Me.txt体重少数.MaxLength = 1
+        Me.txt体重少数.Name = "txt体重少数"
+        Me.txt体重少数.NextFocus = Nothing
+        Me.txt体重少数.PrevFocus = Nothing
+        Me.txt体重少数.Size = New System.Drawing.Size(48, 80)
+        Me.txt体重少数.TabIndex = 133
+        Me.txt体重少数.Text = "9"
+        '
+        'txt体重
+        '
+        Me.txt体重.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txt体重.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!)
+        Me.txt体重.Location = New System.Drawing.Point(445, 252)
+        Me.txt体重.MaxLength = 3
+        Me.txt体重.Name = "txt体重"
+        Me.txt体重.NextFocus = Nothing
+        Me.txt体重.PrevFocus = Nothing
+        Me.txt体重.Size = New System.Drawing.Size(131, 80)
+        Me.txt体重.TabIndex = 132
+        Me.txt体重.Text = "999"
+        '
+        'txt身長少数
+        '
+        Me.txt身長少数.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txt身長少数.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!)
+        Me.txt身長少数.Location = New System.Drawing.Point(629, 124)
+        Me.txt身長少数.MaxLength = 1
+        Me.txt身長少数.Name = "txt身長少数"
+        Me.txt身長少数.NextFocus = Nothing
+        Me.txt身長少数.PrevFocus = Nothing
+        Me.txt身長少数.Size = New System.Drawing.Size(48, 80)
+        Me.txt身長少数.TabIndex = 131
+        Me.txt身長少数.Text = "9"
+        '
+        'txt身長
+        '
+        Me.txt身長.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txt身長.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!)
+        Me.txt身長.Location = New System.Drawing.Point(445, 124)
+        Me.txt身長.MaxLength = 3
+        Me.txt身長.Name = "txt身長"
+        Me.txt身長.NextFocus = Nothing
+        Me.txt身長.PrevFocus = Nothing
+        Me.txt身長.Size = New System.Drawing.Size(131, 80)
+        Me.txt身長.TabIndex = 130
+        Me.txt身長.Text = "999"
+        '
+        'lbl腹囲値
+        '
+        Me.lbl腹囲値.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl腹囲値.BackColor = System.Drawing.Color.White
+        Me.lbl腹囲値.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl腹囲値.Font = New System.Drawing.Font("MS UI Gothic", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl腹囲値.Location = New System.Drawing.Point(445, 385)
+        Me.lbl腹囲値.Name = "lbl腹囲値"
+        Me.lbl腹囲値.Size = New System.Drawing.Size(207, 78)
+        Me.lbl腹囲値.TabIndex = 129
+        Me.lbl腹囲値.Text = "000.0"
+        Me.lbl腹囲値.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbl体重値
+        '
+        Me.lbl体重値.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl体重値.BackColor = System.Drawing.Color.White
+        Me.lbl体重値.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl体重値.Font = New System.Drawing.Font("MS UI Gothic", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl体重値.Location = New System.Drawing.Point(445, 252)
+        Me.lbl体重値.Name = "lbl体重値"
+        Me.lbl体重値.Size = New System.Drawing.Size(207, 78)
+        Me.lbl体重値.TabIndex = 128
+        Me.lbl体重値.Text = "000.0"
+        Me.lbl体重値.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbl身長値
+        '
+        Me.lbl身長値.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl身長値.BackColor = System.Drawing.Color.White
+        Me.lbl身長値.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl身長値.Font = New System.Drawing.Font("MS UI Gothic", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl身長値.Location = New System.Drawing.Point(445, 124)
+        Me.lbl身長値.Name = "lbl身長値"
+        Me.lbl身長値.Size = New System.Drawing.Size(207, 78)
+        Me.lbl身長値.TabIndex = 127
+        Me.lbl身長値.Text = "000.0"
+        Me.lbl身長値.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbl腹囲単位
+        '
+        Me.lbl腹囲単位.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl腹囲単位.AutoSize = True
+        Me.lbl腹囲単位.Font = New System.Drawing.Font("メイリオ", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl腹囲単位.Location = New System.Drawing.Point(684, 413)
+        Me.lbl腹囲単位.Name = "lbl腹囲単位"
+        Me.lbl腹囲単位.Size = New System.Drawing.Size(56, 55)
+        Me.lbl腹囲単位.TabIndex = 31
+        Me.lbl腹囲単位.Text = "--"
+        '
+        'lbl体重単位
+        '
+        Me.lbl体重単位.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl体重単位.AutoSize = True
+        Me.lbl体重単位.Font = New System.Drawing.Font("メイリオ", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl体重単位.Location = New System.Drawing.Point(684, 284)
+        Me.lbl体重単位.Name = "lbl体重単位"
+        Me.lbl体重単位.Size = New System.Drawing.Size(56, 55)
+        Me.lbl体重単位.TabIndex = 30
+        Me.lbl体重単位.Text = "--"
+        '
+        'lbl身長単位
+        '
+        Me.lbl身長単位.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl身長単位.AutoSize = True
+        Me.lbl身長単位.Font = New System.Drawing.Font("メイリオ", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl身長単位.Location = New System.Drawing.Point(684, 159)
+        Me.lbl身長単位.Name = "lbl身長単位"
+        Me.lbl身長単位.Size = New System.Drawing.Size(56, 55)
+        Me.lbl身長単位.TabIndex = 29
+        Me.lbl身長単位.Text = "--"
+        '
+        'Label5
+        '
+        Me.Label5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label5.Location = New System.Drawing.Point(576, 408)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(69, 73)
+        Me.Label5.TabIndex = 28
+        Me.Label5.Text = "."
+        '
+        'Label4
+        '
+        Me.Label4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label4.Location = New System.Drawing.Point(576, 274)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(69, 73)
+        Me.Label4.TabIndex = 27
+        Me.Label4.Text = "."
+        '
+        'Label3
+        '
+        Me.Label3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("ＭＳ ゴシック", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label3.Location = New System.Drawing.Point(576, 148)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(69, 73)
+        Me.Label3.TabIndex = 26
+        Me.Label3.Text = "."
+        '
+        'lbl腹囲
+        '
+        Me.lbl腹囲.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl腹囲.AutoSize = True
+        Me.lbl腹囲.Font = New System.Drawing.Font("メイリオ", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl腹囲.Location = New System.Drawing.Point(245, 384)
+        Me.lbl腹囲.Name = "lbl腹囲"
+        Me.lbl腹囲.Size = New System.Drawing.Size(96, 96)
+        Me.lbl腹囲.TabIndex = 22
+        Me.lbl腹囲.Text = "--"
+        '
+        'lbl体重
+        '
+        Me.lbl体重.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl体重.AutoSize = True
+        Me.lbl体重.Font = New System.Drawing.Font("メイリオ", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl体重.Location = New System.Drawing.Point(245, 252)
+        Me.lbl体重.Name = "lbl体重"
+        Me.lbl体重.Size = New System.Drawing.Size(96, 96)
+        Me.lbl体重.TabIndex = 20
+        Me.lbl体重.Text = "--"
+        '
+        'lbl身長
+        '
+        Me.lbl身長.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl身長.AutoSize = True
+        Me.lbl身長.Font = New System.Drawing.Font("メイリオ", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lbl身長.Location = New System.Drawing.Point(245, 124)
+        Me.lbl身長.Name = "lbl身長"
+        Me.lbl身長.Size = New System.Drawing.Size(96, 96)
+        Me.lbl身長.TabIndex = 17
+        Me.lbl身長.Text = "--"
+        '
+        'btnRegist
+        '
+        Me.btnRegist.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnRegist.Font = New System.Drawing.Font("メイリオ", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnRegist.Location = New System.Drawing.Point(1054, 676)
+        Me.btnRegist.Name = "btnRegist"
+        Me.btnRegist.Size = New System.Drawing.Size(192, 85)
+        Me.btnRegist.TabIndex = 1044
+        Me.btnRegist.Text = "登  録"
+        Me.btnRegist.UseVisualStyleBackColor = True
+        '
+        '身長体重
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1280, 780)
+        Me.Controls.Add(Me.btnRegist)
+        Me.Controls.Add(Me.Panel1)
+        Me.Name = "身長体重"
+        Me.Text = "Form1"
+        Me.Controls.SetChildIndex(Me.Panel1, 0)
+        Me.Controls.SetChildIndex(Me.btnRegist, 0)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents lbl腹囲単位 As System.Windows.Forms.Label
+    Friend WithEvents lbl体重単位 As System.Windows.Forms.Label
+    Friend WithEvents lbl身長単位 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents lbl腹囲 As System.Windows.Forms.Label
+    Friend WithEvents lbl体重 As System.Windows.Forms.Label
+    Friend WithEvents lbl身長 As System.Windows.Forms.Label
+    Friend WithEvents lbl腹囲値 As System.Windows.Forms.Label
+    Friend WithEvents lbl体重値 As System.Windows.Forms.Label
+    Friend WithEvents lbl身長値 As System.Windows.Forms.Label
+    Friend WithEvents btnRegist As System.Windows.Forms.Button
+    Friend WithEvents txt身長 As Mi_KENSHINCommon.Mi_TextBox
+    Friend WithEvents txt身長少数 As Mi_KENSHINCommon.Mi_TextBox
+    Friend WithEvents txt体重少数 As Mi_KENSHINCommon.Mi_TextBox
+    Friend WithEvents txt体重 As Mi_KENSHINCommon.Mi_TextBox
+    Friend WithEvents txt腹囲少数 As Mi_KENSHINCommon.Mi_TextBox
+    Friend WithEvents txt腹囲 As Mi_KENSHINCommon.Mi_TextBox
+    Friend WithEvents btn腹囲 As System.Windows.Forms.Button
+
+End Class

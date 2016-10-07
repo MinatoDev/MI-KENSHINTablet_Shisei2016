@@ -1,0 +1,447 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Mi-KENSHINCommon
+</name>
+</assembly>
+<members>
+<member name="T:Mi_KENSHINCommon.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:Mi_KENSHINCommon.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:Mi_KENSHINCommon.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="P:Mi_KENSHINCommon.My.Resources.Resources.exclamation">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:Mi_KENSHINCommon.My.Resources.Resources.information">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:Mi_KENSHINCommon.My.Resources.Resources.question">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="T:Mi_KENSHINCommon.BaseLogic">
+ <summary>
+ Base画面ロジック
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Mi_KENSHINCommon.KenshinTabletBase.KenshinName">
+ <summary>
+ 検診名
+ </summary>
+</member>
+<member name="M:Mi_KENSHINCommon.KenshinTabletBase.#ctor">
+ <summary>
+ コンストラクタ
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Mi_KENSHINCommon.KenshinTabletBase.Quit">
+ <summary>
+ 終了イベント
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.KenshinTabletBase.Tuuban_TubanDecision(System.String,System.String)">
+ <summary>
+ 通番が確定されたイベント
+ </summary>
+ <param name="tuban"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.KenshinTabletBase.Tuuban_TubanDecisionByKey(System.String)">
+ <summary>
+ 通番が確定されたイベント(実テンキー)
+ </summary>
+ <param name="tuban"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.KenshinTabletBase.KenshinTabletBase_Load(System.Object,System.EventArgs)">
+ <summary>
+ Loadイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.KenshinTabletBase.終了_Click(System.Object,System.EventArgs)">
+ <summary>
+ 終了ボタンイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.KenshinTabletBase.ClearTuban">
+ <summary>
+ 通番をクリア
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.KenshinTabletBase.initFocus">
+ <summary>
+ 初期フォーカスの設定
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Mi_KENSHINCommon.CommonConst">
+ <summary>
+ 共通定数クラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Mi_KENSHINCommon.Config.RealTenKey">
+ <summary>
+ 実テンキーの使用有無
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.Config.DSN">
+ <summary>
+ DSN
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.Config.DBName">
+ <summary>
+ DB名
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.Config.UserName">
+ <summary>
+ ユーザ名
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.Config.Password">
+ <summary>
+ パスワード
+ </summary>
+</member>
+<member name="T:Mi_KENSHINCommon.btnClear">
+ <summary>
+ 診察値選択クラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Mi_KENSHINCommon.btnClear.Caller">
+ <summary>
+ 呼び出し元
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.btnClear.KenshinName">
+ <summary>
+ 検診名
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.btnClear.ItemName">
+ <summary>
+ 項目名
+ </summary>
+</member>
+<member name="M:Mi_KENSHINCommon.btnClear.#ctor(System.Windows.Forms.Label)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="sender">呼び出し元</param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.btnClear.所見_Click(System.Object,System.EventArgs)">
+ <summary>
+ 値クリック
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.btnClear.btnCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルクリック
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.btnClear.btnClear_Load(System.Object,System.EventArgs)">
+ <summary>
+ ロードイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Mi_KENSHINCommon.Tenkey">
+ <summary>
+ テンキークラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Mi_KENSHINCommon.Tenkey.Seisu">
+ <summary>
+ 整数桁数
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.Tenkey.Syousu">
+ <summary>
+ 少数桁数
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.Tenkey.Cntl">
+ <summary>
+ 呼び出し元
+ </summary>mhxcxcxcxc
+</member>
+<member name="P:Mi_KENSHINCommon.Tenkey.ItemName">
+ <summary>
+ 対象項目名
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Mi_KENSHINCommon.Tenkey.Logic">
+ <summary>
+ ロジッククラス
+ </summary>
+</member>
+<member name="M:Mi_KENSHINCommon.Tenkey.#ctor">
+ <summary>
+ コンストラクタ
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.Tenkey.Tenkey_Click(System.Object,System.EventArgs)">
+ <summary>
+ テンキーボタンクリック
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.Tenkey.btnCommit_Click(System.Object,System.EventArgs)">
+ <summary>
+ 決定ボタンクリック
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.Tenkey.btnCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルボタンクリック
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.Tenkey.Tenkey_Load(System.Object,System.EventArgs)">
+ <summary>
+ ロードイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Mi_KENSHINCommon.TenkeyLogic">
+ <summary>
+ テンキーロジッククラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.TenkeyLogic.InputKey(Mi_KENSHINCommon.Tenkey,System.Windows.Forms.Button)">
+ <summary>
+ キーが押された処理
+ </summary>
+ <param name="sender"></param>
+ <param name="btn"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Mi_KENSHINCommon.Person">
+ <summary>
+ 個人表示用コントロール
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Mi_KENSHINCommon.Person.PersonSelected">
+ <summary>
+ 個人が選択されたイベント定義
+ </summary>
+ <param name="tuban">通番</param>
+ <param name="name">氏名</param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.Person.Clicked(System.Object,System.EventArgs)">
+ <summary>
+ イベントを発生させる
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Mi_KENSHINCommon.Tuban">
+ <summary>
+ 通番クラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Mi_KENSHINCommon.Tuban.PersonID">
+ <summary>
+ 個人ID
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.Tuban.KenshinName">
+ <summary>
+ 対象検診名称
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.Tuban.ConnectionInfo">
+ <summary>
+ 接続情報
+ </summary>
+</member>
+<member name="M:Mi_KENSHINCommon.Tuban.#ctor">
+ <summary>
+ コンストラクタ
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Mi_KENSHINCommon.Tuban.TubanDecision">
+ <summary>
+ 通番選択イベント
+ </summary>
+ <param name="tuban"></param>
+ <remarks></remarks>
+</member>
+<member name="E:Mi_KENSHINCommon.Tuban.TubanDecisionByKey">
+ <summary>
+ 実テンキーからの入力確定
+ </summary>
+ <param name="tuban"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.Tuban.lblTuban_Click(System.Object,System.EventArgs)">
+ <summary>
+ 通番クリックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Mi_KENSHINCommon.TubanList">
+ <summary>
+ 通番リスト表示選択クラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Mi_KENSHINCommon.TubanList.logic">
+ <summary>
+ ロジッククラスのインスタンス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Mi_KENSHINCommon.TubanList.Caller">
+ <summary>
+ 呼び出し元
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Mi_KENSHINCommon.TubanList.ConnectionInfo">
+ <summary>
+ 接続情報
+ </summary>
+</member>
+<member name="M:Mi_KENSHINCommon.TubanList.TubanList_Load(System.Object,System.EventArgs)">
+ <summary>
+ ロードイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.TubanList.btnClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルボタンクリックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.TubanList.OnPersonSelected(System.String,System.String,System.String)">
+ <summary>.
+ 個人が選択されたイベント
+ </summary>
+ <param name="number"></param>
+ <param name="name"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.TubanList.AddEvent">
+ <summary>
+ イベント追加
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.TubanList.upper_Click(System.Object,System.EventArgs)">
+ <summary>
+ ▲ボタンイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.TubanList.down_Click(System.Object,System.EventArgs)">
+ <summary>
+ ▼ボタンイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Mi_KENSHINCommon.TubanLogic">
+ <summary>
+ 通番ロジッククラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Mi_KENSHINCommon.TubanLogic.Persons">
+ <summary>
+ 個人リスト
+ </summary>
+</member>
+<member name="P:Mi_KENSHINCommon.TubanLogic.ConnectionInfo">
+ <summary>
+ DB接続情報
+ </summary>
+</member>
+<member name="M:Mi_KENSHINCommon.TubanLogic.DisplayList(System.Windows.Forms.FlowLayoutPanel,System.String,System.Boolean)">
+ <summary>
+ 通番リストを表示する
+ </summary>
+ <param name="flp"></param>
+ <param name="kenshinName"></param>
+ <param name="flg"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Mi_KENSHINCommon.TubanLogic.ClearList">
+ <summary>
+ リストを破棄する。
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

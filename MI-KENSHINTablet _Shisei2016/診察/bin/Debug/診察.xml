@@ -1,0 +1,174 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+診察
+</name>
+</assembly>
+<members>
+<member name="T:診察.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:診察.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:診察.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="P:診察.My.Resources.Resources.診察">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="T:診察.診察">
+ <summary>
+ 診察クラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:診察.診察.Logic">
+ <summary>
+ 視力Logicクラス
+ </summary>
+</member>
+<member name="P:診察.診察.PersonID">
+ <summary>
+ 個人ID
+ </summary>
+</member>
+<member name="P:診察.診察.Result">
+ <summary>
+ メッセージの戻り
+ </summary>
+</member>
+<member name="M:診察.診察.#ctor">
+ <summary>
+ コンストラクタ
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察.Tuuban_TubanDecision(System.String,System.String)">
+ <summary>
+ 通番確定イベント
+ </summary>
+ <param name="tuban"></param>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察.Value_Click(System.Object,System.EventArgs)">
+ <summary>
+ 各計測値クリックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察.btnRegist_Click(System.Object,System.EventArgs)">
+ <summary>
+ 登録ボタンクリックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察.診察_Quit">
+ <summary>
+ 終了イベント
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:診察.診察Logic">
+ <summary>
+ 診察Logicクラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:診察.診察Logic.Caller">
+ <summary>
+ 呼び出し元
+ </summary>
+</member>
+<member name="P:診察.診察Logic.PersonID">
+ <summary>
+ 個人ID
+ </summary>
+</member>
+<member name="P:診察.診察Logic.Result">
+ <summary>
+ メッセージの戻り
+ </summary>
+</member>
+<member name="M:診察.診察Logic.#ctor(診察.診察)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="parent"></param>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.InitDisplay(System.String)">
+ <summary>
+ データがある場合は初期表示
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.TubanDecision(System.String,System.String)">
+ <summary>
+ 通番確定ロジック
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.ChangeEnable(System.Boolean)">
+ <summary>
+ 画面項目を使用不能にする
+ </summary>
+ <param name="enabled"></param>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.ClearValues">
+ <summary>
+ 値をクリアする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.Value_Click(System.Windows.Forms.Label)">
+ <summary>
+ 各値クリック時に選択画面を表示
+ </summary>
+ <param name="sender"></param>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.Validate">
+ <summary>
+ 入力チェック
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.Regist">
+ <summary>
+ DBに登録する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.Load(診察.診察)">
+ <summary>
+ 受診者がいるか？
+ </summary>
+ <param name="caller"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:診察.診察Logic.IsExist(System.String)">
+ <summary>
+ 検診対象者が指定された検診項目を受診するかどうか
+ </summary>
+ <param name="id"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

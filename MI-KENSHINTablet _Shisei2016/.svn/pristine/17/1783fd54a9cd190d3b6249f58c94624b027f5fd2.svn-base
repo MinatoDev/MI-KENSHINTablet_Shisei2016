@@ -1,0 +1,231 @@
+﻿Imports Mi_KENSHINCommon
+
+''' <summary>
+''' 血圧クラス
+''' </summary>
+''' <remarks></remarks>
+Public Class 血圧
+    Inherits Mi_KENSHINCommon.KenshinTabletBase
+
+#Region "プロパティ"
+    ''' <summary>
+    ''' 視力Logicクラス
+    ''' </summary>
+    Private Property Logic As 血圧Logic
+
+    ''' <summary>
+    ''' 個人ID
+    ''' </summary>
+    Public Property PersonID As String
+
+    ''' <summary>
+    ''' メッセージの戻り
+    ''' </summary>
+    Public Property Result As String
+
+
+#End Region
+
+#Region "コンストラクタ"
+    ''' <summary>
+    ''' コンストラクタ
+    ''' </summary>
+    ''' <remarks></remarks>
+    Public Sub New()
+
+        ' この呼び出しはデザイナーで必要です。
+
+        InitializeComponent()
+
+        ' InitializeComponent() 呼び出しの後で初期化を追加します。
+        Try
+            Logic = New 血圧Logic(Me)
+            Me.KenshinName = CommonConst.KETSUATSU
+
+            ' 実テンキー使用の時はTextBoxにする
+            If MyBase.RealTenKey Then
+                ' 最高血圧値1
+                txt最高血圧値1.Font = lbl最高血圧値1.Font
+                txt最高血圧値1.Size = lbl最高血圧値1.Size
+                txt最高血圧値1.MaxLength = 3
+                txt最高血圧値1.Location = lbl最高血圧値1.Location
+                txt最高血圧値1.NextFocus = txt最低血圧値1
+
+                '最低血圧値1
+                txt最低血圧値1.Font = lbl最低血圧値1.Font
+                txt最低血圧値1.Size = lbl最低血圧値1.Size
+                txt最低血圧値1.MaxLength = 3
+                txt最低血圧値1.Location = lbl最低血圧値1.Location
+                txt最低血圧値1.NextFocus = txt最高血圧値2
+
+                '最高血圧値2
+                txt最高血圧値2.Font = lbl最高血圧値2.Font
+                txt最高血圧値2.Size = lbl最高血圧値2.Size
+                txt最高血圧値2.MaxLength = 3
+                txt最高血圧値2.Location = lbl最高血圧値2.Location
+                txt最高血圧値2.NextFocus = txt最低血圧値2
+
+                '最低血圧値2
+                txt最低血圧値2.Font = lbl最低血圧値2.Font
+                txt最低血圧値2.Size = lbl最低血圧値2.Size
+                txt最低血圧値2.MaxLength = 3
+                txt最低血圧値2.Location = lbl最低血圧値2.Location
+                txt最低血圧値2.NextFocus = txt最高血圧値1
+
+                txt最高血圧値1.Visible = True
+                txt最高血圧値2.Visible = True
+                txt最低血圧値1.Visible = True
+                txt最低血圧値2.Visible = True
+
+                lbl最高血圧値1.Visible = False
+                lbl最高血圧値2.Visible = False
+                lbl最低血圧値1.Visible = False
+                lbl最低血圧値2.Visible = False
+            Else
+                Me.txt最高血圧値1.Visible = False
+                Me.lbl最高血圧値1.Visible = True
+                Me.txt最低血圧値1.Visible = False
+                Me.lbl最低血圧値1.Visible = True
+                Me.txt最高血圧値2.Visible = False
+                Me.lbl最高血圧値2.Visible = True
+                Me.txt最低血圧値2.Visible = False
+                Me.lbl最低血圧値2.Visible = True
+            End If
+
+
+
+        Catch ex As Exception
+            Using msgwin As MessageWindow = New MessageWindow()
+                msgwin.IconImage = CommonConst.EXCLAMATION
+                msgwin.ButtonStyle = CommonConst.OK_ONLY
+                msgwin.MessageString = ex.Message
+                msgwin.Caller = Me
+                msgwin.ShowDialog()
+            End Using
+            End
+        End Try
+    End Sub
+#End Region
+
+#Region "イベント"
+    ''' <summary>
+    ''' 通番確定イベント
+    ''' </summary>
+    ''' <param name="tuban"></param>
+    ''' <remarks></remarks>
+    Public Overrides Sub Tuuban_TubanDecision(personID As String, tuban As String)
+        If Not tuban.Equals(String.Empty) Then
+            Logic.TubanDecision(personID, tuban)
+            Logic.ClearValues()
+            Logic.InitDisplay(tuban)
+            txt最高血圧値1.Focus()
+        End If
+    End Sub
+
+    ''' <summary>
+    ''' 登録ボタンクリックイベント
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Private Sub btnRegist_Click(sender As Object, e As EventArgs) Handles btnRegist.Click
+
+        Using msgwin As MessageWindow = New MessageWindow()
+            msgwin.IconImage = CommonConst.QUESTION
+            msgwin.ButtonStyle = CommonConst.YES_NO
+            msgwin.MessageString = CommonConst.REGIST_QUESTION
+            msgwin.Caller = Me
+            msgwin.ShowDialog()
+
+            If Result <> "YES" Then
+                Exit Sub
+            End If
+        End Using
+
+        Try
+            Logic.Regist()
+            MyBase.initFocus()
+        Catch ex As Exception
+            Using msgwin As MessageWindow = New MessageWindow()
+                msgwin.IconImage = CommonConst.EXCLAMATION
+                msgwin.ButtonStyle = CommonConst.OK_ONLY
+                msgwin.MessageString = ex.Message
+                msgwin.Caller = Me
+                msgwin.ShowDialog()
+            End Using
+        End Try
+    End Sub
+
+    ''' <summary>
+    ''' 血圧値クリック
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Private Sub 血圧値_Click(sender As Object, e As EventArgs) Handles lbl最高血圧値2.Click, lbl最高血圧値1.Click, lbl最低血圧値2.Click, lbl最低血圧値1.Click
+        Logic.Value_Click(sender)
+
+    End Sub
+
+    ''' <summary>
+    ''' 初回値クリア
+    ''' </summary>
+    Private Sub btn血圧クリア1_Click(sender As Object, e As EventArgs) Handles btn血圧クリア1.Click
+        Logic.Clear1st()
+    End Sub
+
+    ''' <summary>
+    ''' 2回値クリア
+    ''' </summary>
+    Private Sub btn血圧クリア2_Click(sender As Object, e As EventArgs) Handles btn血圧クリア2.Click
+        Logic.Clear2nd()
+    End Sub
+
+    ''' <summary>
+    ''' ロードイベント
+    ''' </summary>
+    Private Sub 血圧_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not Logic.Load(Me) Then
+            End
+        End If
+    End Sub
+
+#End Region
+
+    ''' <summary>
+    ''' KeyPressイベント
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Private Sub txt血圧値_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txt最高血圧値1.KeyPress, txt最高血圧値2.KeyPress, txt最低血圧値1.KeyPress, txt最低血圧値2.KeyPress
+        If Not Logic.KeyInputValidation(sender, e.KeyChar) Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub txt血圧値_Validated(sender As Object, e As EventArgs) Handles txt最高血圧値1.Validated, txt最高血圧値2.Validated, txt最低血圧値1.Validated, txt最低血圧値2.Validated
+        Logic.血圧値_Validated()
+    End Sub
+
+    Private Sub txt血圧値_TextChanged(sender As Object, e As EventArgs) Handles txt最高血圧値1.TextChanged, txt最高血圧値2.TextChanged, txt最低血圧値1.TextChanged, txt最低血圧値2.TextChanged
+        DirectCast(sender, Mi_TextBox).ForeColor = Color.Black
+    End Sub
+
+    Private Sub 血圧_Quit() Handles Me.Quit
+        Using msgwin As MessageWindow = New MessageWindow()
+            msgwin.IconImage = CommonConst.QUESTION
+            msgwin.ButtonStyle = CommonConst.YES_NO
+            msgwin.MessageString = CommonConst.QUIT_QUESTION
+            msgwin.Caller = Me
+            msgwin.ShowDialog()
+
+            If Result <> "YES" Then
+                Exit Sub
+            End If
+        End Using
+
+        Me.Close()
+        Me.Dispose()
+    End Sub
+End Class

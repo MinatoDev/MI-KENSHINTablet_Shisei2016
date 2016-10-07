@@ -1,0 +1,194 @@
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\App.config
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\視力.exe.config
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\視力.exe
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\視力.pdb
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\視力.xml
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\KenshinTabletCommon.dll
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\KenshinTabletDac.dll
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\EntityFramework.dll
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\KenshinTabletDac.pdb
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\KenshinTabletDac.xml
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\KenshinTabletCommon.pdb
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\KenshinTabletCommon.xml
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\EntityFramework.xml
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\bin\Debug\ja\EntityFramework.resources.dll
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\obj\Debug\視力.Resources.resources
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\obj\Debug\視力.ValueChoice.resources
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\obj\Debug\視力.視力.resources
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\obj\Debug\視力.exe
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\obj\Debug\視力.xml
+C:\Users\やかもち\Documents\Visual Studio 2013\Projects\KenshinTablet\KenshinTablet\視力\obj\Debug\視力.pdb
+C:\Users\やかもち\Documents\新タブレット\KenshinTablet\視力\bin\Debug\視力.exe.config
+C:\Users\やかもち\Documents\新タブレット\KenshinTablet\視力\obj\Debug\視力.exe
+C:\Users\やかもち\Documents\新タブレット\KenshinTablet\視力\obj\Debug\視力.xml
+C:\Users\やかもち\Documents\新タブレット\KenshinTablet\視力\obj\Debug\視力.pdb
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\視力.exe.config
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\obj\Debug\視力.exe
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\obj\Debug\視力.xml
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\obj\Debug\視力.pdb
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\App.config
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\視力.exe
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\視力.pdb
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\視力.xml
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\KenshinTabletCommon.dll
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\KenshinTabletDac.dll
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\EntityFramework.dll
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\KenshinTabletDac.pdb
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\KenshinTabletDac.xml
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\KenshinTabletCommon.pdb
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\KenshinTabletCommon.xml
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\EntityFramework.xml
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\bin\Debug\ja\EntityFramework.resources.dll
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\obj\Debug\視力.Resources.resources
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\obj\Debug\視力.ValueChoice.resources
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\obj\Debug\視力.視力.resources
+E:\Documents\Visual Studio 2013\Projects\新タブレット\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\App.config
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\視力.exe.config
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\視力.exe
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\視力.pdb
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\視力.xml
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\Dac.dll
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\Mi-KENSHINCommon.dll
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\Dac.pdb
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\Dac.xml
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\Mi-KENSHINCommon.pdb
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\Mi-KENSHINCommon.xml
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.Resources.resources
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.ValueChoice.resources
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.視力.resources
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.exe
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.xml
+E:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.pdb
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\bin\Debug\視力.exe.config
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.exe
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.xml
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.pdb
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.ValueChoice.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.視力.resources
+D:\Documents\Visual Studio 2013\Projects\Dac\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+H:\Dac\視力\bin\Debug\App.config
+H:\Dac\視力\bin\Debug\視力.exe.config
+H:\Dac\視力\bin\Debug\視力.exe
+H:\Dac\視力\bin\Debug\視力.pdb
+H:\Dac\視力\bin\Debug\視力.xml
+H:\Dac\視力\bin\Debug\Dac.dll
+H:\Dac\視力\bin\Debug\Mi-KENSHINCommon.dll
+H:\Dac\視力\bin\Debug\Dac.pdb
+H:\Dac\視力\bin\Debug\Dac.xml
+H:\Dac\視力\bin\Debug\Mi-KENSHINCommon.pdb
+H:\Dac\視力\bin\Debug\Mi-KENSHINCommon.xml
+H:\Dac\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+H:\Dac\視力\obj\Debug\視力.Resources.resources
+H:\Dac\視力\obj\Debug\視力.ValueChoice.resources
+H:\Dac\視力\obj\Debug\視力.視力.resources
+H:\Dac\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+H:\Dac\視力\obj\Debug\視力.exe
+H:\Dac\視力\obj\Debug\視力.xml
+H:\Dac\視力\obj\Debug\視力.pdb
+\\192.168.1.200\共有\本田の遺言\Dac\視力\bin\Debug\視力.exe.config
+\\192.168.1.200\共有\本田の遺言\Dac\視力\obj\Debug\視力.exe
+\\192.168.1.200\共有\本田の遺言\Dac\視力\obj\Debug\視力.xml
+\\192.168.1.200\共有\本田の遺言\Dac\視力\obj\Debug\視力.pdb
+D:\Documents\Projects\Dac\視力\bin\Debug\視力.exe.config
+D:\Documents\Projects\Dac\視力\obj\Debug\視力.exe
+D:\Documents\Projects\Dac\視力\obj\Debug\視力.xml
+D:\Documents\Projects\Dac\視力\obj\Debug\視力.pdb
+D:\Documents\Projects\Dac\視力\bin\Debug\App.config
+D:\Documents\Projects\Dac\視力\bin\Debug\視力.exe
+D:\Documents\Projects\Dac\視力\bin\Debug\視力.pdb
+D:\Documents\Projects\Dac\視力\bin\Debug\視力.xml
+D:\Documents\Projects\Dac\視力\bin\Debug\Dac.dll
+D:\Documents\Projects\Dac\視力\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\Dac\視力\bin\Debug\Dac.pdb
+D:\Documents\Projects\Dac\視力\bin\Debug\Dac.xml
+D:\Documents\Projects\Dac\視力\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\Dac\視力\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\Dac\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\Dac\視力\obj\Debug\視力.Resources.resources
+D:\Documents\Projects\Dac\視力\obj\Debug\視力.ValueChoice.resources
+D:\Documents\Projects\Dac\視力\obj\Debug\視力.視力.resources
+D:\Documents\Projects\Dac\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\App.config
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\視力.exe.config
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\視力.exe
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\視力.pdb
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\視力.xml
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet\視力\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\MI-KENSHINTablet\視力\obj\Debug\視力.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet\視力\obj\Debug\視力.ValueChoice.resources
+D:\Documents\Projects\MI-KENSHINTablet\視力\obj\Debug\視力.視力.resources
+D:\Documents\Projects\MI-KENSHINTablet\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet\視力\obj\Debug\視力.exe
+D:\Documents\Projects\MI-KENSHINTablet\視力\obj\Debug\視力.xml
+D:\Documents\Projects\MI-KENSHINTablet\視力\obj\Debug\視力.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.exe.config
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.exe
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\App.config
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.exe
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.dll
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.pdb
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.xml
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.Resources.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.ValueChoice.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.視力.resources
+F:\Project\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\App.config
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.exe.config
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.exe
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.Resources.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.ValueChoice.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.視力.resources
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.exe
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.xml
+D:\Documents\Projects\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\App.config
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.exe.config
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.exe
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\視力.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.dll
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Dac.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.pdb
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\bin\Debug\Mi-KENSHINCommon.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.vbprojResolveAssemblyReference.cache
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.Resources.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.ValueChoice.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.視力.resources
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.vbproj.GenerateResource.Cache
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.exe
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.xml
+D:\Documents\GIT\MI-KENSHINTablet _Shisei2016\視力\obj\Debug\視力.pdb

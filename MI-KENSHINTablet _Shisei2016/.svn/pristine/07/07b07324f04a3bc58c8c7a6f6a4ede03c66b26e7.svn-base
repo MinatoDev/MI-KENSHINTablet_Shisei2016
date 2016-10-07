@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+  <appSettings>
+    <add key ="DSN" value = "establet_Shisei"/>
+    <add key ="Database" value = "establet_shisei"/>
+    <add key ="UID" value = "root"/>
+    <add key ="PWD" value = "root"/>
+    <add key="BloodPressureH1" value = "0050101" />
+    <add key="BloodPressureL1" value = "0050102" />
+    <add key="BloodPressureH2" value = "0050111" />
+    <add key="BloodPressureL2" value = "0050112" />
+    <add key="FullScreen" value = "NO" />
+  </appSettings>
+
+</configuration>

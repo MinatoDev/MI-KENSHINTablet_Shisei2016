@@ -1,0 +1,27 @@
+﻿Imports Dac
+
+Public Class Common
+
+    '未入力エラーのクラス
+    Class No_InputException
+        Inherits Exception
+        Public Sub New(ByVal msg As String)
+            MyBase.New(msg)
+        End Sub
+    End Class
+
+    Class AbnormalValueException
+        Inherits Exception
+        Public Sub New(ByVal msg As String)
+            MyBase.New(msg)
+        End Sub
+    End Class
+
+    Class NeedSecondMeasurementException
+        Inherits Exception
+        Public Sub New(ByVal msg As String)
+            MyBase.New(msg)
+        End Sub
+    End Class
+
+End Class

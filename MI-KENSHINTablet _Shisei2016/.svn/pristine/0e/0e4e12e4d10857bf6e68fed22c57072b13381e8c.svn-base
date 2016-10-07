@@ -1,0 +1,110 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class ValueChoice
+    Inherits System.Windows.Forms.Form
+
+    'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows フォーム デザイナーで必要です。
+    Private components As System.ComponentModel.IContainer
+
+    'メモ: 以下のプロシージャは Windows フォーム デザイナーで必要です。
+    'Windows フォーム デザイナーを使用して変更できます。  
+    'コード エディターを使って変更しないでください。
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btnD = New System.Windows.Forms.Button()
+        Me.btnC = New System.Windows.Forms.Button()
+        Me.btnB = New System.Windows.Forms.Button()
+        Me.btnA = New System.Windows.Forms.Button()
+        Me.SuspendLayout
+        '
+        'btnCancel
+        '
+        Me.btnCancel.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
+        Me.btnCancel.Location = New System.Drawing.Point(1014, 670)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(181, 59)
+        Me.btnCancel.TabIndex = 27
+        Me.btnCancel.TabStop = false
+        Me.btnCancel.Text = "キャンセル"
+        Me.btnCancel.UseVisualStyleBackColor = true
+        '
+        'btnD
+        '
+        Me.btnD.Font = New System.Drawing.Font("MS UI Gothic", 72!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
+        Me.btnD.Location = New System.Drawing.Point(927, 206)
+        Me.btnD.Name = "btnD"
+        Me.btnD.Size = New System.Drawing.Size(248, 243)
+        Me.btnD.TabIndex = 18
+        Me.btnD.TabStop = false
+        Me.btnD.Text = "D"
+        Me.btnD.UseVisualStyleBackColor = true
+        '
+        'btnC
+        '
+        Me.btnC.Font = New System.Drawing.Font("MS UI Gothic", 72!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
+        Me.btnC.Location = New System.Drawing.Point(639, 206)
+        Me.btnC.Name = "btnC"
+        Me.btnC.Size = New System.Drawing.Size(248, 243)
+        Me.btnC.TabIndex = 17
+        Me.btnC.TabStop = false
+        Me.btnC.Text = "C"
+        Me.btnC.UseVisualStyleBackColor = true
+        '
+        'btnB
+        '
+        Me.btnB.Font = New System.Drawing.Font("MS UI Gothic", 72!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
+        Me.btnB.Location = New System.Drawing.Point(352, 206)
+        Me.btnB.Name = "btnB"
+        Me.btnB.Size = New System.Drawing.Size(248, 243)
+        Me.btnB.TabIndex = 15
+        Me.btnB.TabStop = false
+        Me.btnB.Text = "B"
+        Me.btnB.UseVisualStyleBackColor = true
+        '
+        'btnA
+        '
+        Me.btnA.Font = New System.Drawing.Font("MS UI Gothic", 72!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
+        Me.btnA.Location = New System.Drawing.Point(57, 206)
+        Me.btnA.Name = "btnA"
+        Me.btnA.Size = New System.Drawing.Size(253, 243)
+        Me.btnA.TabIndex = 14
+        Me.btnA.TabStop = false
+        Me.btnA.Text = "A"
+        Me.btnA.UseVisualStyleBackColor = true
+        '
+        'ValueChoice
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 12!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192,Byte),Integer), CType(CType(255,Byte),Integer), CType(CType(255,Byte),Integer))
+        Me.ClientSize = New System.Drawing.Size(1280, 800)
+        Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.btnD)
+        Me.Controls.Add(Me.btnC)
+        Me.Controls.Add(Me.btnB)
+        Me.Controls.Add(Me.btnA)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "ValueChoice"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "ValueChoice"
+        Me.ResumeLayout(false)
+
+End Sub
+    Friend WithEvents btnCancel As System.Windows.Forms.Button
+    Friend WithEvents btnD As System.Windows.Forms.Button
+    Friend WithEvents btnC As System.Windows.Forms.Button
+    Friend WithEvents btnB As System.Windows.Forms.Button
+    Friend WithEvents btnA As System.Windows.Forms.Button
+End Class

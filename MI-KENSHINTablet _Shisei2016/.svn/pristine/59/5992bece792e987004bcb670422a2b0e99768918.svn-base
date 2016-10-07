@@ -1,0 +1,263 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Tenkey
+    Inherits System.Windows.Forms.Form
+
+    'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows フォーム デザイナーで必要です。
+    Private components As System.ComponentModel.IContainer
+
+    'メモ: 以下のプロシージャは Windows フォーム デザイナーで必要です。
+    'Windows フォーム デザイナーを使用して変更できます。  
+    'コード エディターを使って変更しないでください。
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btnCommit = New System.Windows.Forms.Button()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.btn0 = New System.Windows.Forms.Button()
+        Me.ButtonDot = New System.Windows.Forms.Button()
+        Me.btn9 = New System.Windows.Forms.Button()
+        Me.btn8 = New System.Windows.Forms.Button()
+        Me.btn7 = New System.Windows.Forms.Button()
+        Me.btn6 = New System.Windows.Forms.Button()
+        Me.btn5 = New System.Windows.Forms.Button()
+        Me.btn4 = New System.Windows.Forms.Button()
+        Me.btn3 = New System.Windows.Forms.Button()
+        Me.btn2 = New System.Windows.Forms.Button()
+        Me.btnDel = New System.Windows.Forms.Button()
+        Me.lblAtai = New System.Windows.Forms.Label()
+        Me.btn1 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'btnCommit
+        '
+        Me.btnCommit.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnCommit.Location = New System.Drawing.Point(286, 473)
+        Me.btnCommit.Name = "btnCommit"
+        Me.btnCommit.Size = New System.Drawing.Size(149, 48)
+        Me.btnCommit.TabIndex = 50
+        Me.btnCommit.TabStop = False
+        Me.btnCommit.Text = "決　定"
+        Me.btnCommit.UseVisualStyleBackColor = True
+        '
+        'btnCancel
+        '
+        Me.btnCancel.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnCancel.Location = New System.Drawing.Point(456, 473)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(149, 48)
+        Me.btnCancel.TabIndex = 49
+        Me.btnCancel.TabStop = False
+        Me.btnCancel.Text = "CANCEL"
+        Me.btnCancel.UseVisualStyleBackColor = True
+        '
+        'btnClear
+        '
+        Me.btnClear.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnClear.Location = New System.Drawing.Point(215, 115)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(149, 59)
+        Me.btnClear.TabIndex = 48
+        Me.btnClear.TabStop = False
+        Me.btnClear.Text = "CLEAR"
+        Me.btnClear.UseVisualStyleBackColor = True
+        '
+        'btn0
+        '
+        Me.btn0.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn0.Location = New System.Drawing.Point(60, 375)
+        Me.btn0.Name = "btn0"
+        Me.btn0.Size = New System.Drawing.Size(304, 59)
+        Me.btn0.TabIndex = 47
+        Me.btn0.TabStop = False
+        Me.btn0.Text = "０"
+        Me.btn0.UseVisualStyleBackColor = True
+        '
+        'ButtonDot
+        '
+        Me.ButtonDot.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.ButtonDot.Location = New System.Drawing.Point(370, 375)
+        Me.ButtonDot.Name = "ButtonDot"
+        Me.ButtonDot.Size = New System.Drawing.Size(149, 59)
+        Me.ButtonDot.TabIndex = 46
+        Me.ButtonDot.TabStop = False
+        Me.ButtonDot.Text = "．"
+        Me.ButtonDot.UseVisualStyleBackColor = True
+        '
+        'btn9
+        '
+        Me.btn9.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn9.Location = New System.Drawing.Point(370, 310)
+        Me.btn9.Name = "btn9"
+        Me.btn9.Size = New System.Drawing.Size(149, 59)
+        Me.btn9.TabIndex = 45
+        Me.btn9.TabStop = False
+        Me.btn9.Text = "９"
+        Me.btn9.UseVisualStyleBackColor = True
+        '
+        'btn8
+        '
+        Me.btn8.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn8.Location = New System.Drawing.Point(215, 310)
+        Me.btn8.Name = "btn8"
+        Me.btn8.Size = New System.Drawing.Size(149, 59)
+        Me.btn8.TabIndex = 44
+        Me.btn8.TabStop = False
+        Me.btn8.Text = "８"
+        Me.btn8.UseVisualStyleBackColor = True
+        '
+        'btn7
+        '
+        Me.btn7.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn7.Location = New System.Drawing.Point(60, 310)
+        Me.btn7.Name = "btn7"
+        Me.btn7.Size = New System.Drawing.Size(149, 59)
+        Me.btn7.TabIndex = 43
+        Me.btn7.TabStop = False
+        Me.btn7.Text = "７"
+        Me.btn7.UseVisualStyleBackColor = True
+        '
+        'btn6
+        '
+        Me.btn6.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn6.Location = New System.Drawing.Point(370, 245)
+        Me.btn6.Name = "btn6"
+        Me.btn6.Size = New System.Drawing.Size(149, 59)
+        Me.btn6.TabIndex = 42
+        Me.btn6.TabStop = False
+        Me.btn6.Text = "６"
+        Me.btn6.UseVisualStyleBackColor = True
+        '
+        'btn5
+        '
+        Me.btn5.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn5.Location = New System.Drawing.Point(215, 245)
+        Me.btn5.Name = "btn5"
+        Me.btn5.Size = New System.Drawing.Size(149, 59)
+        Me.btn5.TabIndex = 41
+        Me.btn5.TabStop = False
+        Me.btn5.Text = "５"
+        Me.btn5.UseVisualStyleBackColor = True
+        '
+        'btn4
+        '
+        Me.btn4.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn4.Location = New System.Drawing.Point(60, 245)
+        Me.btn4.Name = "btn4"
+        Me.btn4.Size = New System.Drawing.Size(149, 59)
+        Me.btn4.TabIndex = 40
+        Me.btn4.TabStop = False
+        Me.btn4.Text = "４"
+        Me.btn4.UseVisualStyleBackColor = True
+        '
+        'btn3
+        '
+        Me.btn3.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn3.Location = New System.Drawing.Point(370, 180)
+        Me.btn3.Name = "btn3"
+        Me.btn3.Size = New System.Drawing.Size(149, 59)
+        Me.btn3.TabIndex = 39
+        Me.btn3.TabStop = False
+        Me.btn3.Text = "３"
+        Me.btn3.UseVisualStyleBackColor = True
+        '
+        'btn2
+        '
+        Me.btn2.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn2.Location = New System.Drawing.Point(215, 180)
+        Me.btn2.Name = "btn2"
+        Me.btn2.Size = New System.Drawing.Size(149, 59)
+        Me.btn2.TabIndex = 38
+        Me.btn2.TabStop = False
+        Me.btn2.Text = "２"
+        Me.btn2.UseVisualStyleBackColor = True
+        '
+        'btnDel
+        '
+        Me.btnDel.Font = New System.Drawing.Font("ＭＳ ゴシック", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnDel.Location = New System.Drawing.Point(370, 115)
+        Me.btnDel.Name = "btnDel"
+        Me.btnDel.Size = New System.Drawing.Size(149, 59)
+        Me.btnDel.TabIndex = 37
+        Me.btnDel.TabStop = False
+        Me.btnDel.Text = "ＤＥＬ"
+        Me.btnDel.UseVisualStyleBackColor = True
+        '
+        'lblAtai
+        '
+        Me.lblAtai.BackColor = System.Drawing.Color.White
+        Me.lblAtai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblAtai.Font = New System.Drawing.Font("MS UI Gothic", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblAtai.Location = New System.Drawing.Point(49, 22)
+        Me.lblAtai.Name = "lblAtai"
+        Me.lblAtai.Size = New System.Drawing.Size(470, 76)
+        Me.lblAtai.TabIndex = 36
+        Me.lblAtai.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'btn1
+        '
+        Me.btn1.Font = New System.Drawing.Font("MS UI Gothic", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btn1.Location = New System.Drawing.Point(60, 180)
+        Me.btn1.Name = "btn1"
+        Me.btn1.Size = New System.Drawing.Size(149, 59)
+        Me.btn1.TabIndex = 35
+        Me.btn1.TabStop = False
+        Me.btn1.Text = "１"
+        Me.btn1.UseVisualStyleBackColor = True
+        '
+        'Tenkey
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(655, 543)
+        Me.Controls.Add(Me.btnCommit)
+        Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.btn0)
+        Me.Controls.Add(Me.ButtonDot)
+        Me.Controls.Add(Me.btn9)
+        Me.Controls.Add(Me.btn8)
+        Me.Controls.Add(Me.btn7)
+        Me.Controls.Add(Me.btn6)
+        Me.Controls.Add(Me.btn5)
+        Me.Controls.Add(Me.btn4)
+        Me.Controls.Add(Me.btn3)
+        Me.Controls.Add(Me.btn2)
+        Me.Controls.Add(Me.btnDel)
+        Me.Controls.Add(Me.lblAtai)
+        Me.Controls.Add(Me.btn1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Name = "Tenkey"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents btnCommit As System.Windows.Forms.Button
+    Friend WithEvents btnCancel As System.Windows.Forms.Button
+    Friend WithEvents btnClear As System.Windows.Forms.Button
+    Friend WithEvents btn0 As System.Windows.Forms.Button
+    Friend WithEvents ButtonDot As System.Windows.Forms.Button
+    Friend WithEvents btn9 As System.Windows.Forms.Button
+    Friend WithEvents btn8 As System.Windows.Forms.Button
+    Friend WithEvents btn7 As System.Windows.Forms.Button
+    Friend WithEvents btn6 As System.Windows.Forms.Button
+    Friend WithEvents btn5 As System.Windows.Forms.Button
+    Friend WithEvents btn4 As System.Windows.Forms.Button
+    Friend WithEvents btn3 As System.Windows.Forms.Button
+    Friend WithEvents btn2 As System.Windows.Forms.Button
+    Friend WithEvents btnDel As System.Windows.Forms.Button
+    Friend WithEvents lblAtai As System.Windows.Forms.Label
+    Friend WithEvents btn1 As System.Windows.Forms.Button
+End Class
